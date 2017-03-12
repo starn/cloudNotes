@@ -1,0 +1,46 @@
+fr.starn.cloudNotes.ConfigActivity -> fr.starn.cloudNotes.ConfigActivity:
+    android.app.Dialog dialog -> a
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void showDialog() -> a
+    android.app.Dialog access$000(fr.starn.cloudNotes.ConfigActivity) -> a
+fr.starn.cloudNotes.ConfigActivity$1 -> fr.starn.cloudNotes.a:
+    java.util.ArrayList val$gUsernameList -> a
+    android.accounts.Account[] val$accounts -> b
+    fr.starn.cloudNotes.ConfigActivity this$0 -> c
+    void <init>(fr.starn.cloudNotes.ConfigActivity,java.util.ArrayList,android.accounts.Account[]) -> <init>
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+fr.starn.cloudNotes.ConfigActivity$2 -> fr.starn.cloudNotes.b:
+    fr.starn.cloudNotes.ConfigActivity this$0 -> a
+    void <init>(fr.starn.cloudNotes.ConfigActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.starn.cloudNotes.ContactMgt -> fr.starn.cloudNotes.c:
+    java.lang.String getContactAddress(android.content.Context) -> a
+    void createContact(android.content.Context,java.lang.String,java.lang.String) -> a
+    void updateAddress(android.content.Context,java.lang.String) -> a
+    java.lang.String getContactIDFromName(android.content.Context,java.lang.String) -> b
+    java.lang.String[] getAccounts(android.content.Context) -> b
+fr.starn.cloudNotes.MainActivity -> fr.starn.cloudNotes.MainActivity:
+    android.widget.EditText editText -> b
+    int widgetID -> c
+    android.view.View$OnClickListener myhandler -> a
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    android.widget.EditText access$000(fr.starn.cloudNotes.MainActivity) -> a
+    int access$100(fr.starn.cloudNotes.MainActivity) -> b
+fr.starn.cloudNotes.MainActivity$1 -> fr.starn.cloudNotes.d:
+    fr.starn.cloudNotes.MainActivity this$0 -> a
+    void <init>(fr.starn.cloudNotes.MainActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+fr.starn.cloudNotes.NotesWidgetProvider -> fr.starn.cloudNotes.NotesWidgetProvider:
+    java.util.List widgetIDList -> a
+    void <init>() -> <init>
+    void onAppWidgetOptionsChanged(android.content.Context,android.appwidget.AppWidgetManager,int,android.os.Bundle) -> onAppWidgetOptionsChanged
+    void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+    android.widget.RemoteViews buildViews(android.content.Context,int,java.lang.String) -> a
+    android.app.PendingIntent getPendingSelfIntent(android.content.Context,int,java.lang.String) -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void updateValue(android.content.Context,int,java.lang.String) -> c
+    void onDeleted(android.content.Context,int[]) -> onDeleted
+    void <clinit>() -> <clinit>

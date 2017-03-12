@@ -1,0 +1,25 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minWidth="120dp"
+	android:minHeight="60dp"
+    
+	android:updatePeriodMillis="18000000"
+	android:initialLayout="@layout/temp_layout"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    >
+	<ScrollView
+			android:id="@+id/ScrollView01"
+			android:layout_width="wrap_content"
+			android:layout_height="150dip">
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+	</ScrollView>
+>
+</appwidget-provider>
+<!-- 
+android:previewImage="@drawable/preview"
+android:initialKeyguardLayout="@layout/example_keyguard"
+ -->
